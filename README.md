@@ -1,7 +1,8 @@
 # IOT-search-engine
 full text search engine for IOT based on influxdb
 
-usage:
+# usage:
+
     searcher = IotSearcher()
 
     searcher.index(1, {"name": "bone lee", "age": 23, "cats": "ao da miao and ao er miao", "title": "this is a good title"})
